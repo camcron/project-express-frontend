@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import NumericLabel from 'react-pretty-numbers';
 import styled from 'styled-components';
+import { Loader } from './Loader';
 
 const StyledUl = styled.ul`
   display: flex;
@@ -47,7 +48,7 @@ export const CompanyDetails = () => {
   }, [name]);
 
   if (loading) {
-    return <p>Loading company details...</p>;
+    return <Loader />;
   }
 
   return (
