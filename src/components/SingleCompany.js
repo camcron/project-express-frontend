@@ -35,8 +35,10 @@ export const CompanyDetails = () => {
           <p>HQ state: {company.hq_state}</p>
           <p>Founding year: {company.founding_year}</p>
           <p>Annual revenue: {company.annual_revenue}</p>
+          <p>2022-2023 (USD in Billions)</p>
           <p>Employee size: {company.employee_size}</p>
           <p>Market cap: {company.market_cap}</p>
+          <p>2022-2023 (USD in Billions)</p>
           <p>Stock name: {company.stock_name}</p>
           <p>Annual income tax: {company.annual_income_tax}</p>
         </div>
