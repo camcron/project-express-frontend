@@ -1,19 +1,29 @@
-# Technigo React Starter App
+This project is a web application that displays information about the top 50 companies based on various criteria. It was built using React, JavaScript, and an Express.js backend.
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+The Problem:
+The main challenge of this project was fetching the relevant data from the backend API and displaying it to the user in a clear and organized manner. The application allows users to search for companies based on criteria such as location, founding year, and sector. The data fetched from the API is then filtered and displayed in a list of companies, along with individual company details.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+Technologies used:
+React,
+JavaScript,
+Express.js,
+Styled Components,
+React Router,
+react-pretty-numbers.
+lottiefiles/react-lottie-player
 
-## Usage
+Features:
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+Users can view a list of top 50 companies.
+Users can search for companies based on criteria such as location, founding year, and sector.
+Users can view detailed information about individual companies.
+Styled Components used for styling.
+React Router used for navigation and routing.
+react-pretty-numbers used for formatting large numeric values with commas.
 
-Alternatively, if you don't want a new git repo on your account;
+View it live:
+https://project-express-api.netlify.app/index
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+See links for project where API is built:
+https://project-express-api-cvzekbgn3q-lz.a.run.app/
+https://github.com/camcron/project-express-api

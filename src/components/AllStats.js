@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import NumericLabel from 'react-pretty-numbers';
+import { Loader } from './Loader';
 
 const StyledUl = styled.ul`
   display: flex;
@@ -58,7 +59,7 @@ export const AllStats = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading companies...</p>;
+    return <Loader />;
   }
 
   return (
