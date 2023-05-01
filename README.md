@@ -13,7 +13,6 @@ react-pretty-numbers.
 lottiefiles/react-lottie-player
 
 Features:
-
 Users can view a list of top 50 companies.
 Users can search for companies based on criteria such as location, founding year, and sector.
 Users can view detailed information about individual companies.
