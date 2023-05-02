@@ -37,7 +37,7 @@ export const CompanyDetails = () => {
     fetch(`https://project-express-api-cvzekbgn3q-lz.a.run.app/companies/${encodeURIComponent(name)}`)
       .then((res) => res.json())
       .then((data) => {
-        setCompany(data[0]);
+        setCompany(data);
       })
       .catch((error) => {
         console.error(console.error(error))

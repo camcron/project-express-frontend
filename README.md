@@ -14,7 +14,6 @@ lottiefiles/react-lottie-player
 
 Features:
 Users can view a list of top 50 companies.
-Users can search for companies based on criteria such as location, founding year, and sector.
 Users can view detailed information about individual companies.
 Styled Components used for styling.
 React Router used for navigation and routing.
