@@ -49,7 +49,7 @@ export const AllStats = () => {
     fetch('https://project-express-api-cvzekbgn3q-lz.a.run.app/companies')
       .then((res) => res.json())
       .then((data) => {
-        setList(data);
+        setList(data.body.companies);
         setLoading(false);
       })
       .catch((error) => {
