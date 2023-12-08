@@ -46,7 +46,7 @@ export const AllStats = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch('https://project-express-api-cvzekbgn3q-lz.a.run.app/companies')
+    fetch('https://project-express-api-up7t32af6a-lz.a.run.app//companies')
       .then((res) => res.json())
       .then((data) => {
         setList(data.body.companies);

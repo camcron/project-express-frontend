@@ -49,8 +49,8 @@ export const StartPage = () => {
     <StyledStartPageContent>
       <h2>Find information about the top 50 tech companies in the US</h2>
       <p>Data coming from: <a href="https://www.kaggle.com/datasets/lamiatabassum/top-50-us-tech-companies-2022-2023-dataset" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/lamiatabassum/top-50-us-tech-companies-2022-2023-dataset</a></p>
-      <p>API coming from: <a href="https://project-express-api-cvzekbgn3q-lz.a.run.app/" target="_blank" rel="noopener noreferrer">https://project-express-api-cvzekbgn3q-lz.a.run.app/</a></p>
-      <p>API-docs: <a href="https://project-express-api-cvzekbgn3q-lz.a.run.app/api-docs" target="_blank" rel="noopener noreferrer">https://project-express-api-cvzekbgn3q-lz.a.run.app/api-docs</a></p>
+      <p>API coming from: <a href="https://project-express-api-up7t32af6a-lz.a.run.app/" target="_blank" rel="noopener noreferrer">https://project-express-api-cvzekbgn3q-lz.a.run.app/</a></p>
+      <p>API-docs: <a href="https://project-express-api-up7t32af6a-lz.a.run.app/api-docs" target="_blank" rel="noopener noreferrer">https://project-express-api-cvzekbgn3q-lz.a.run.app/api-docs</a></p>
     </StyledStartPageContent>
   )
 }

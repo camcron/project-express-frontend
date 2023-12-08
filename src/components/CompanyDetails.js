@@ -34,7 +34,7 @@ export const CompanyDetails = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`https://project-express-api-cvzekbgn3q-lz.a.run.app/companies/${encodeURIComponent(name)}`)
+    fetch(`https://project-express-api-up7t32af6a-lz.a.run.app//companies/${encodeURIComponent(name)}`)
       .then((res) => res.json())
       .then((data) => {
         setCompany(data.body.company);
